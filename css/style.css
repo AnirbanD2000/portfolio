@@ -262,8 +262,9 @@ footer {
     margin: 30px 0;
 }
 .social-icons ul {
-	display: flex;
-	justify-content: space-around;
+    display: flex;
+    justify-content: left;
+    gap: 40px;
 }
 .footer-content {
 	max-width: 60%;
