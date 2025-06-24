@@ -127,6 +127,8 @@ main hr {
 }
 .two-buttons {
 	margin-top: 30px;
+    display: flex;
+    gap: 10px;
 }
 /****************** ABOUT ******************/
 #about {
@@ -230,6 +232,26 @@ tr {
 	border-bottom: 2px solid #1261ff;
 }
 
+.add-project {
+    text-align: center;
+    margin-top: 60px;
+}
+.add-project h4 {
+    margin-bottom: 30px;
+}
+.video-frame {
+    width: 260px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid #60fff0;
+}
+
+.video-frame iframe {
+    width: 260px;
+    height: 180px;
+}
+
 /****************** CONTACT-ME ******************/
 #contactme .heading {
     text-align: center;
@@ -268,9 +290,6 @@ footer {
 }
 .footer-content {
 	max-width: 60%;
-}
-.foot-heading {
-	margin-bottom: 30px;
 }
 .footer-content a {
     color: #fff;
