@@ -1,6 +1,6 @@
 //**************ELEMENT*******************//
 var typed = new Typed('#element', {
-    strings: ['Web Developer', 'Html Developer', 'Web Designer'],
+    strings: ['Web Developer', 'Html Developer', 'Web Designer', 'Graphics Designer'],
     typeSpeed: 50,
 });
 
