@@ -303,3 +303,8 @@ footer hr {
 .copy-right {
     text-align: center;
 }
+
+strong {
+    font-size: 17px;
+    font-weight: 600;
+}
